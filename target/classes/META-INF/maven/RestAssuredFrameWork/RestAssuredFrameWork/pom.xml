@@ -41,6 +41,8 @@
 						<verbose>true</verbose> <!-- Enables verbose output -->
 					</configuration>
 				</plugin>
+				
+				
 
 			</plugins>
 		</pluginManagement>
@@ -113,6 +115,13 @@
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
 			<version>5.2.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.28</version> <!-- Ensure this is the latest version -->
+			<scope>provided</scope>
 		</dependency>
 
 
