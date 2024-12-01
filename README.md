@@ -17,7 +17,7 @@ This will execute the tests defined in the `pom.xml` using the TestNG suite.
 - Open the Command Prompt.
 - Navigate to the project directory:
   ```bash
-  cd C:\Users\pavan\restAssuredTraining\PetStoreAutomation
+  cd C:\Users\pravin\restAssuredTraining\PetStoreAutomation
   ```
 - Run the tests using the Maven command:
   ```bash
@@ -32,7 +32,7 @@ This will execute the tests specified in the `pom.xml`.
 #### Steps:
 - Navigate to your project folder:
   ```bash
-  cd C:\Users\pavan\restAssuredTraining\PetStoreAutomation
+  cd C:\Users\pravin\restAssuredTraining\PetStoreAutomation
   ```
 - Initialize the local repository (if not already done):
   ```bash
@@ -58,7 +58,7 @@ This will execute the tests specified in the `pom.xml`.
 #### Steps:
 - If the repository is not linked to GitHub, add the remote URL:
   ```bash
-  git remote add origin https://github.com/pavanoltraining/PetStoreAutomation.git
+  git remote add origin https://github.com/pravinoltraining/PetStoreAutomation.git
   ```
 - Push the code to GitHub:
   ```bash
@@ -76,7 +76,7 @@ If prompted, provide your GitHub credentials or set up a personal access token.
 ##### **Prerequisites:**
 - Jenkins is installed.
 - Git is installed.
-- A repository exists on GitHub (e.g., `https://github.com/pavanoltraining/PetStoreAutomation.git`).
+- A repository exists on GitHub (e.g., `https://github.com/pravinoltraining/PetStoreAutomation.git`).
   
 #### **Steps to Set Up Jenkins:**
 
@@ -95,7 +95,7 @@ If prompted, provide your GitHub credentials or set up a personal access token.
    - In the Jenkins job configuration, under **Source Code Management**, choose **Git**.
    - Add your repository URL:
      ```
-     https://github.com/pavanoltraining/PetStoreAutomation.git
+     https://github.com/pravinoltraining/PetStoreAutomation.git
      ```
    - Add credentials (GitHub username and password or personal access token).
   
