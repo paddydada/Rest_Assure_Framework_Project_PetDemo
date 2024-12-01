@@ -58,7 +58,7 @@ This will execute the tests specified in the `pom.xml`.
 #### Steps:
 - If the repository is not linked to GitHub, add the remote URL:
   ```bash
-  git remote add origin https://github.com/pravinoltraining/PetStoreAutomation.git
+  git remote add origin https://github.com/pravin234/Rest_Assure_Framework_Project_PetDemo.git
   ```
 - Push the code to GitHub:
   ```bash
@@ -76,7 +76,7 @@ If prompted, provide your GitHub credentials or set up a personal access token.
 ##### **Prerequisites:**
 - Jenkins is installed.
 - Git is installed.
-- A repository exists on GitHub (e.g., `https://github.com/pravinoltraining/PetStoreAutomation.git`).
+- A repository exists on GitHub https://github.com/pravin234/Rest_Assure_Framework_Project_PetDemo.git
   
 #### **Steps to Set Up Jenkins:**
 
@@ -95,7 +95,7 @@ If prompted, provide your GitHub credentials or set up a personal access token.
    - In the Jenkins job configuration, under **Source Code Management**, choose **Git**.
    - Add your repository URL:
      ```
-     https://github.com/pravinoltraining/PetStoreAutomation.git
+     https://github.com/pravin234/Rest_Assure_Framework_Project_PetDemo.git
      ```
    - Add credentials (GitHub username and password or personal access token).
   
